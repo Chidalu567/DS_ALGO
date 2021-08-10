@@ -91,3 +91,29 @@ call(Animal.dogs); //passs the property to a function instead of passing all the
 * Do not ref a dom that has already been deleted
 * Delete any variable that is not in use
 </p>
+
+## SETS
+
+<p>A set is a group of objects , artifacts together. In layman's term it is a collection of unordered group of numbers that are unique.The time complexity of a set is O(1)</p>
+
+```javascript
+var mySet={1,2,3,4};//this is an example of a set
+/*The subsets are {0} {1} {2} {3} {4} {1,2} {1,3} and so on*/
+
+```
+
+> Set is a very powerful data type for checking uniqueness in data collected from a raw source
+
+### Set operations
+
+- Insertion:
+  This is the operation that involves add elements to the set. It does not accept duplicates
+  Set.add(x);//this adds an element to a set
+
+- Deletion:
+  Set.delete()
+  removes an element from a set and returns a boolean value.
+- Query:
+  Set.has(n) checks if an element is present in a set.
+
+> We can also write algorithms for intersection of a set.

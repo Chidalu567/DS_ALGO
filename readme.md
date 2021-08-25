@@ -117,3 +117,13 @@ var mySet={1,2,3,4};//this is an example of a set
   Set.has(n) checks if an element is present in a set.
 
 > We can also write algorithms for intersection of a set.
+
+### Linear Search :
+
+Linear search is a searching technique used to search for an element in both sorted and unsorted data.The time complexity of a **Linear search** is **O(n)**
+
+> It is advisable to use typescript when learning data structures and algorithm as it helps you in static typeing.
+
+### Binary search :
+
+This Search is also called atomic search as it divides and sub divides to find an element in an array. **Binary search** is used for search in only sorted data.
